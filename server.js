@@ -6,7 +6,7 @@ function filterByQuery(query, animalsArray) {
     let personalityTraitsArray = [];
     let filteredResults = animalsArray;
 
-    if (query.personalityTraits) {
+    if (query.personalityTraits)  {
         if (typeof query.personalityTraits === 'string') {
             personalityTraitsArray = [query.personalityTraits];
         } else {
